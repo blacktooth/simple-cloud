@@ -1,1 +1,15 @@
 Simple Cloud is a very lightweight solution for synchronizing data with your handhelds.
+
+----------------------------
+Client Request
+----------------------------
+
+{
+	'device_string':'xxxxxxxx',
+	'userid':'xxxxxx',
+	'message':'xxxxxxx',
+	'priority':'x',
+	'_type':'xxx',
+	'sent_time':'xxxxxx',
+	'polling_freq':'xx',
+}
