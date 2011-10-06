@@ -13,3 +13,14 @@ CREATE TABLE devices (
 	registered_ip VARCHAR,
 	registered_time TIMESTAMP
 );
+
+CREATE TABLE messages (
+	id INTEGER PRIMARY KEY,
+	content TEXT,
+	device_string VARCHAR,
+	origin_ip VARCHAR,
+	sent_time TIMESTAMP,
+	queued_time TIMESTAMP,
+	priority INTEGER,
+	delivered SMALLINT
+);
